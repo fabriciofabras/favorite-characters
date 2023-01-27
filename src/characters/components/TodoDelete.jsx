@@ -10,7 +10,7 @@ export const TodoDelete = ({ onDeleteTodo, item }) => {
     };
 
     onDeleteTodo(deleteItem);
-    window.location.reload(true);
+    window.location.assign("https://fabriciofabras.github.io/favorite-characters/");
   };
 
   return (
